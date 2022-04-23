@@ -13,3 +13,11 @@
 .externalNativeBuild
 .cxx
 local.properties
+/.gradle/*
+/.idea/*
+/gradle/*
+/projectFilesBackup/*
+/build/*
+gradlew
+gradlew.bat
+/reserve
