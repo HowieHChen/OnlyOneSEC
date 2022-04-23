@@ -1,0 +1,19 @@
+{
+    "tool_version": "9.1.01w.2",
+    "header": {
+        "preview_ordering": [
+            "iconpack_summary.jpg",
+        ],
+        "description": "",
+        "resolutions": [
+            "1440x2560",
+            "1080x1920",
+            "720x1280"
+        ],
+        "title": "Simple color cartoon Icon",
+        "type": "AppIcon"
+    },
+    "visibilityResult": "fail",
+    "opentheme_version": "5.0.0",
+    "visibilityTimeStamp": "1595582775919"
+}

@@ -1,0 +1,51 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "com.sec.Space.common.appiconpack"
+        minSdk 26
+        targetSdk 32
+        versionCode 811
+        versionName '4.00.15'
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                //这里修改apk文件名
+                def fileName = "OnlyOneSEC-${defaultConfig.versionCode}-${defaultConfig.versionName}"
+                if('debug'.equals(variant.buildType.name)){
+                    fileName = fileName + "-debug.apk"
+                }
+                else{
+                    fileName = fileName + "-release.apk"
+                }
+                output.outputFileName = fileName
+            }
+        }
+    }
+}
+
+dependencies {
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}

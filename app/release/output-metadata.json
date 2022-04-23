@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.sec.Space.common.appiconpack",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 811,
+      "versionName": "4.00.15",
+      "outputFile": "OnlyOneSEC-811-4.00.15-release.apk"
+    }
+  ],
+  "elementType": "File"
+}
