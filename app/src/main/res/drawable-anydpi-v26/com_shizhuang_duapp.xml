@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
-    <foreground android:drawable="@drawable/cn_10010_fg"/>
-    <background android:drawable="@drawable/cn_10010_bg"/>
+    <foreground android:drawable="@drawable/du_fg"/>
+    <background android:drawable="@drawable/du_bg"/>
 </adaptive-icon>
