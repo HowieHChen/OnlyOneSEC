@@ -30,7 +30,7 @@ android {
             def outputFile = output.outputFile
             if (outputFile != null && outputFile.name.endsWith('.apk')) {
                 //这里修改apk文件名
-                def fileName = "OnlyOneSEC-${defaultConfig.versionCode}-${defaultConfig.versionName}"
+                def fileName = "OnlyOneSEC-2.2-${defaultConfig.versionCode}-${defaultConfig.versionName}"
                 if('debug'.equals(variant.buildType.name)){
                     fileName = fileName + "-debug.apk"
                 }
