@@ -6,6 +6,7 @@
 
 ### 使用方法
 
+- 新增适配主题商店图标主题 [**PyeongChang2018_2**](http://apps.samsung.com/theme/ProductDetail.as?appId=com.samsung.www.PyeongChang2018_2.appiconpack) ，请搭配 **-clone** 版本使用
 1. 去主题商店下载图标主题 [**Space**](http://apps.samsung.com/theme/ProductDetail.as?appId=com.sec.Space.common.appiconpack) ，但请**不要应用图标**
 2. 下载本图标包
 3. 安装[MT管理器](http://www.coolapk.com/apk/bin.mt.plus) ，打开并找到第二步下载的图标apk
