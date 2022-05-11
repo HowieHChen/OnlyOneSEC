@@ -9,8 +9,8 @@ android {
         applicationId "com.sec.Space.common.appiconpack"
         minSdk 26
         targetSdk 32
-        versionCode 811
-        versionName '4.00.15'
+        versionCode 1027
+        versionName '2.7'
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
@@ -30,7 +30,7 @@ android {
             def outputFile = output.outputFile
             if (outputFile != null && outputFile.name.endsWith('.apk')) {
                 //这里修改apk文件名
-                def fileName = "OnlyOneSEC-2.4-${defaultConfig.versionCode}-${defaultConfig.versionName}"
+                def fileName = "OnlyOneSEC-${defaultConfig.versionCode}-${defaultConfig.versionName}"
                 if('debug'.equals(variant.buildType.name)){
                     fileName = fileName + "-debug.apk"
                 }
